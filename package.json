@@ -1,0 +1,41 @@
+{
+  "name": "guardiantrack",
+  "version": "1.0.0",
+  "description": "Track Guardian statistics for Destiny 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoFarCalm/GuardianTrack.git"
+  },
+  "keywords": [
+    "destiny",
+    "api",
+    "express",
+    "javascript",
+    "bungie",
+    "guardian",
+    "stats"
+  ],
+  "author": "Lonnie Currie <lonnie.d.currie@gmail.com>",
+  "contributors": [
+    "Adam Tyler <adam.tyler@utexas.edu>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SoFarCalm/GuardianTrack/issues"
+  },
+  "homepage": "https://github.com/SoFarCalm/GuardianTrack#readme",
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "^4.16.2",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5"
+  }
+}
